@@ -237,6 +237,7 @@ a:hover { text-decoration: underline; }
   margin: 0 0 28px;
   max-width: 62ch;
 }
+.section-lead.lead-wide { max-width: none; }
 .subhead {
   font-family: var(--font-mono);
   font-size: .8rem;
