@@ -142,6 +142,20 @@
       <div class="timeline">
 
         <article class="tl-item">
+          <div class="tl-when">Jun 2026 – Present</div>
+          <div class="tl-what">
+            <h3>Undergraduate Research Assistant</h3>
+            <p class="tl-org">Silicon Systems Research Lab, University of Washington — Seattle, WA</p>
+            <ul>
+              <li>Built a C++ model of the TeraNoC 20-port on-chip network (4 cores + 16 memory banks) that matched the real chip's behavior, deriving its exact addressing and traffic rules from the Verilog RTL and adding built-in checks that stop the run whenever a message reaches the wrong bank.</li>
+              <li>Implemented and verified a multi-core multi-head attention kernel on a simulated multinode RISC-V system in SST (Structural Simulation Toolkit), validating numerical outputs against a golden reference implementation across multiple parallel configurations.</li>
+              <li>Identified 3 functional defects and 1 deadlock in the Snitch + Spatz RISC-V vector core by validating its GVSoC fast model against golden RTL across 8 hand-written kernels (matmul, matvec, dot product, softmax), running each on Verilator and Synopsys VCS and comparing numerical results and cycle counts against the RTL reference.</li>
+              <li>Ran performance modelling on the TeraNoC network-on-chip, producing latency-vs-load and throughput curves across 8 traffic patterns, and compared how scaling across nodes, cores and threads affected performance, all in the SST simulator.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="tl-item">
           <div class="tl-when">Jul 2025 – Sep 2025</div>
           <div class="tl-what">
             <h3>Hardware Research Intern</h3>
